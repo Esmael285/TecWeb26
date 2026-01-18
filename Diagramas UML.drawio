@@ -85,11 +85,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r_38xiuiYbj5n0tkSLE1" name="Page-2">
-    <mxGraphModel dx="1198" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1454" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vUsJPbrDFclMcV-KdCEu-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="frame" vertex="1">
+        <mxCell id="vUsJPbrDFclMcV-KdCEu-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=310;height=30;" value="&lt;span style=&quot;text-align: start; font-size: medium;&quot;&gt;Sistema de Gestão de Yoga&lt;/span&gt;" vertex="1">
           <mxGeometry height="850" width="510" x="180" y="120" as="geometry" />
         </mxCell>
         <mxCell id="vUsJPbrDFclMcV-KdCEu-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Instrutor" vertex="1">
