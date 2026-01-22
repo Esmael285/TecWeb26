@@ -141,10 +141,80 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4igh_Rs-sdqrpTxWKeBV" name="Classes">
-    <mxGraphModel dx="1018" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="980" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_stxdRUraDEEogIEiNra-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Aluno" vertex="1">
+          <mxGeometry height="200" width="160" x="140" y="140" as="geometry">
+            <mxRectangle height="30" width="70" x="140" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-2" parent="_stxdRUraDEEogIEiNra-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ nome: type&lt;div&gt;+ email: type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ senha: type&lt;div&gt;+ idAluno: type&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ statusPagamento: type&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-3" parent="_stxdRUraDEEogIEiNra-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-4" parent="_stxdRUraDEEogIEiNra-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ registrar(): type&lt;div&gt;+ login(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ verAulas(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ inscreverAula(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ cancelarInscricao(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ efetuarPagamento(): type&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="160" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Aula" vertex="1">
+          <mxGeometry height="160" width="160" x="320" y="140" as="geometry">
+            <mxRectangle height="30" width="70" x="140" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-6" parent="_stxdRUraDEEogIEiNra-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ nomeAula: type&lt;div&gt;+ descricao: type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ horario: type&lt;div&gt;+ idAula: type&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ instrutor: type&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ alunosInscritos: type&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-7" parent="_stxdRUraDEEogIEiNra-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-8" parent="_stxdRUraDEEogIEiNra-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ adicionarAluno(): type&lt;div&gt;+ removerAluno(): type&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="32" width="160" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Instrutor" vertex="1">
+          <mxGeometry height="160" width="160" x="500" y="140" as="geometry">
+            <mxRectangle height="30" width="70" x="140" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-14" parent="_stxdRUraDEEogIEiNra-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ nome: type&lt;div&gt;+ email: type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ senha: type&lt;div&gt;+ idInstrutor: type&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ statusPagamento: type&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-15" parent="_stxdRUraDEEogIEiNra-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-16" parent="_stxdRUraDEEogIEiNra-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarAula(): type&lt;br&gt;&lt;div&gt;+ editarAula(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ verAlunosInscritos(): type&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="160" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="160" width="180" x="680" y="140" as="geometry">
+            <mxRectangle height="30" width="70" x="140" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-18" parent="_stxdRUraDEEogIEiNra-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ nome: type&lt;div&gt;+ email: type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ senha: type&lt;div&gt;+ idAdmin: type&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-19" parent="_stxdRUraDEEogIEiNra-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-20" parent="_stxdRUraDEEogIEiNra-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ gerirUtilizadores(): type&lt;br&gt;&lt;div&gt;+ gerirPagamentos(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ consultarRelatorios(): type&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="180" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pagamento" vertex="1">
+          <mxGeometry height="170" width="180" x="880" y="140" as="geometry">
+            <mxRectangle height="30" width="70" x="140" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-22" parent="_stxdRUraDEEogIEiNra-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ idPagamento: type&lt;div&gt;+ valor: type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ data: type&lt;div&gt;+ status: type&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ idAlunos: type&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-23" parent="_stxdRUraDEEogIEiNra-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_stxdRUraDEEogIEiNra-24" parent="_stxdRUraDEEogIEiNra-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ efetuarPagamento(): type&lt;br&gt;&lt;div&gt;+ verificarStatus(): type&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ gerarRecibo(): type&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="180" y="108" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
