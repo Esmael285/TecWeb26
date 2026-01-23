@@ -141,7 +141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4igh_Rs-sdqrpTxWKeBV" name="Classes">
-    <mxGraphModel dx="1397" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2936" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,8 +260,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="4dvTvtCb20YjWD8j-yQT" name="Page-4">
-    <mxGraphModel dx="588" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="4dvTvtCb20YjWD8j-yQT" name="Sequencia">
+    <mxGraphModel dx="1736" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
