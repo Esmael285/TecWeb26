@@ -288,7 +288,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4igh_Rs-sdqrpTxWKeBV" name="Classes">
-    <mxGraphModel dx="2004" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2354" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,18 +349,18 @@
           <mxGeometry height="36" width="200" y="34" as="geometry" />
         </mxCell>
         <mxCell id="_stxdRUraDEEogIEiNra-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pagamento" vertex="1">
-          <mxGeometry height="110" width="180" x="-1004" y="650" as="geometry">
+          <mxGeometry height="130" width="180" x="-1004" y="650" as="geometry">
             <mxRectangle height="30" width="70" x="140" y="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_stxdRUraDEEogIEiNra-22" parent="_stxdRUraDEEogIEiNra-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ idPagamento: int&lt;div&gt;+ valor: decimal&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ dataPagamento: datetime&lt;div&gt;+ estado: EsstadoPagamento&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ metodo: metodoPagamento&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="74" width="180" y="26" as="geometry" />
+        <mxCell id="_stxdRUraDEEogIEiNra-22" parent="_stxdRUraDEEogIEiNra-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- idPagamento: int&lt;div&gt;- valor: decimal&lt;br&gt;&lt;/div&gt;&lt;div&gt;- dataPagamento: datetime&lt;div&gt;- estado: EsstadoPagamento&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- metodo: metodoPagamento&lt;br&gt;&lt;/div&gt;&lt;div&gt;- idTransacao: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="_stxdRUraDEEogIEiNra-23" parent="_stxdRUraDEEogIEiNra-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="180" y="100" as="geometry" />
+          <mxGeometry height="8" width="180" y="120" as="geometry" />
         </mxCell>
         <mxCell id="_stxdRUraDEEogIEiNra-24" parent="_stxdRUraDEEogIEiNra-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="2" width="180" y="108" as="geometry" />
+          <mxGeometry height="2" width="180" y="128" as="geometry" />
         </mxCell>
         <mxCell id="qDnqDmIdpiMA9gElff7c-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Utilizador" vertex="1">
           <mxGeometry height="150" width="160" x="-806" y="130" as="geometry">
