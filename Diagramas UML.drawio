@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4dvTvtCb20YjWD8j-yQT" name="Sequencia">
-    <mxGraphModel dx="1782" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1177" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -752,7 +752,7 @@
         <mxCell id="7lkXqnwSMIcr0Tkvre1B-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Email ja registrado]" vertex="1">
           <mxGeometry height="20" width="111" x="140" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="7lkXqnwSMIcr0Tkvre1B-10" edge="1" parent="1" source="hd1L4sl9b05PMj4ckX0b-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="mostrarErro(&quot;Dados Inválidos&quot;)">
+        <mxCell id="7lkXqnwSMIcr0Tkvre1B-10" edge="1" parent="1" source="hd1L4sl9b05PMj4ckX0b-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="mostrarErro(&quot;Email já registado&quot;)">
           <mxGeometry relative="1" width="80" as="geometry">
             <mxPoint x="400" y="420" as="sourcePoint" />
             <mxPoint x="120" y="420" as="targetPoint" />
