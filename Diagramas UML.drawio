@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4dvTvtCb20YjWD8j-yQT" name="Sequencia">
-    <mxGraphModel dx="1243" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9780" dy="4513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1078,8 +1078,8 @@
         <mxCell id="KFUaZFNAQxjWVjSzDXEL-37" parent="KFUaZFNAQxjWVjSzDXEL-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="40" width="10" x="50" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="KFUaZFNAQxjWVjSzDXEL-38" edge="1" parent="KFUaZFNAQxjWVjSzDXEL-35" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="KFUaZFNAQxjWVjSzDXEL-37" value="2:validarDadosPgamento(idPlano, dadosPagamento)">
-          <mxGeometry relative="1" x="0.0027" as="geometry">
+        <mxCell id="KFUaZFNAQxjWVjSzDXEL-38" edge="1" parent="KFUaZFNAQxjWVjSzDXEL-35" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="KFUaZFNAQxjWVjSzDXEL-37" value="validarDadosPgamento(idPlano, dadosPagamento)">
+          <mxGeometry relative="1" x="-0.0029" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="80" y="80" />
@@ -1094,19 +1094,19 @@
         <mxCell id="KFUaZFNAQxjWVjSzDXEL-42" parent="KFUaZFNAQxjWVjSzDXEL-41" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="40" width="10" x="55" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="KFUaZFNAQxjWVjSzDXEL-43" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-47" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="KFUaZFNAQxjWVjSzDXEL-36" value="1:efetuarPagamento(idPlano,dadosPagamento)">
+        <mxCell id="KFUaZFNAQxjWVjSzDXEL-43" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-47" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="KFUaZFNAQxjWVjSzDXEL-36" value="efetuarPagamento(idPlano,dadosPagamento)">
           <mxGeometry relative="1" x="0.0024" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="200" y="3145" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KFUaZFNAQxjWVjSzDXEL-44" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="KFUaZFNAQxjWVjSzDXEL-42" value="4:processarPagamento(valor, dadosPagamento)">
-          <mxGeometry relative="1" x="0.0015" as="geometry">
+        <mxCell id="KFUaZFNAQxjWVjSzDXEL-44" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="KFUaZFNAQxjWVjSzDXEL-42" value="processarPagamento(valor, dadosPagamento)">
+          <mxGeometry relative="1" x="0.001" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="440" y="3195" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KFUaZFNAQxjWVjSzDXEL-45" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-42" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="KFUaZFNAQxjWVjSzDXEL-36" value="5:resultadoPagamento(status, idTransacao)">
+        <mxCell id="KFUaZFNAQxjWVjSzDXEL-45" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-42" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="KFUaZFNAQxjWVjSzDXEL-36" value="resultadoPagamento(status, idTransacao)">
           <mxGeometry relative="1" x="0.0023" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="664" y="3310" as="sourcePoint" />
@@ -1125,8 +1125,8 @@
         <mxCell id="KFUaZFNAQxjWVjSzDXEL-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Dados&amp;nbsp;[inválidos]" vertex="1">
           <mxGeometry height="20" width="94" x="16" y="3280" as="geometry" />
         </mxCell>
-        <mxCell id="KFUaZFNAQxjWVjSzDXEL-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="KFUaZFNAQxjWVjSzDXEL-48" value="3:mostrarErro(&quot;Dados de pagamento Inválidos&quot;)">
-          <mxGeometry relative="1" width="80" x="-0.001" as="geometry">
+        <mxCell id="KFUaZFNAQxjWVjSzDXEL-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="KFUaZFNAQxjWVjSzDXEL-48" value="mostrarErro(&quot;Dados de pagamento Inválidos&quot;)">
+          <mxGeometry relative="1" width="80" x="0.0015" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="434" y="3300" as="sourcePoint" />
             <mxPoint x="138.63043478260875" y="3300" as="targetPoint" />
@@ -1159,8 +1159,8 @@
             <mxPoint x="770" y="3650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KFUaZFNAQxjWVjSzDXEL-66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12:confirmarPagamentoSucesso(idTransacao)">
-          <mxGeometry relative="1" x="-0.002" as="geometry">
+        <mxCell id="KFUaZFNAQxjWVjSzDXEL-66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="confirmarPagamentoSucesso(idTransacao)">
+          <mxGeometry relative="1" x="-0.0045" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="434" y="3770" as="sourcePoint" />
             <mxPoint x="143.99999999999977" y="3770" as="targetPoint" />
@@ -1181,7 +1181,7 @@
         <mxCell id="czXGS6i1RimvGuaBNWV9-16" parent="czXGS6i1RimvGuaBNWV9-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="40" width="10" x="45" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="czXGS6i1RimvGuaBNWV9-9" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="czXGS6i1RimvGuaBNWV9-8" value="&lt;span style=&quot;caret-color: rgb(18, 18, 18); color: rgb(18, 18, 18); text-align: left; background-color: rgb(222, 222, 222);&quot;&gt;6:registarPagamento(idUtilizador, &quot;RECUSADO&quot;, idTransacao)&lt;/span&gt;">
+        <mxCell id="czXGS6i1RimvGuaBNWV9-9" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="czXGS6i1RimvGuaBNWV9-8" value="&lt;span style=&quot;caret-color: rgb(18, 18, 18); color: rgb(18, 18, 18); text-align: left; background-color: rgb(222, 222, 222);&quot;&gt;registarPagamento(idUtilizador, &quot;RECUSADO&quot;, idTransacao)&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="964" y="3491" as="sourcePoint" />
           </mxGeometry>
@@ -1191,32 +1191,32 @@
             <mxPoint x="964" y="3561" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="czXGS6i1RimvGuaBNWV9-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7:mostrarErro(&quot;Pagamento recusado&quot;)">
+        <mxCell id="czXGS6i1RimvGuaBNWV9-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="mostrarErro(&quot;Pagamento recusado&quot;)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="433.9999999999998" y="3555.0000000000005" as="sourcePoint" />
             <mxPoint x="144.00000000000023" y="3555.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="czXGS6i1RimvGuaBNWV9-14" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="czXGS6i1RimvGuaBNWV9-13" value="8:registarPagamento(idUtilizador, &quot;APROVADO&quot;, idTransacao)">
-          <mxGeometry relative="1" x="0.001" as="geometry">
+        <mxCell id="czXGS6i1RimvGuaBNWV9-14" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="czXGS6i1RimvGuaBNWV9-13" value="registarPagamento(idUtilizador, &quot;APROVADO&quot;, idTransacao)">
+          <mxGeometry relative="1" x="0.0022" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="619" y="3661" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="czXGS6i1RimvGuaBNWV9-15" edge="1" parent="1" source="czXGS6i1RimvGuaBNWV9-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="KFUaZFNAQxjWVjSzDXEL-36" value="9:OK">
+        <mxCell id="czXGS6i1RimvGuaBNWV9-15" edge="1" parent="1" source="czXGS6i1RimvGuaBNWV9-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="KFUaZFNAQxjWVjSzDXEL-36" value="OK">
           <mxGeometry relative="1" x="0.001" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="619" y="3731" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="czXGS6i1RimvGuaBNWV9-17" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="czXGS6i1RimvGuaBNWV9-16" value="10:ativarPlano(idUtilizador, idPlano)">
+        <mxCell id="czXGS6i1RimvGuaBNWV9-17" edge="1" parent="1" source="KFUaZFNAQxjWVjSzDXEL-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="czXGS6i1RimvGuaBNWV9-16" value="ativarPlano(idUtilizador, idPlano)">
           <mxGeometry relative="1" x="0.0006" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="964" y="3701" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="czXGS6i1RimvGuaBNWV9-18" edge="1" parent="1" source="czXGS6i1RimvGuaBNWV9-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="KFUaZFNAQxjWVjSzDXEL-36" value="11:OK">
+        <mxCell id="czXGS6i1RimvGuaBNWV9-18" edge="1" parent="1" source="czXGS6i1RimvGuaBNWV9-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="KFUaZFNAQxjWVjSzDXEL-36" value="OK">
           <mxGeometry relative="1" x="0.001" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="460" y="3755" as="targetPoint" />
@@ -1266,7 +1266,7 @@
         <mxCell id="_wi2HK_pfaV_McRf6Jdr-48" parent="_wi2HK_pfaV_McRf6Jdr-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="46" width="10" x="60.5" y="454" as="geometry" />
         </mxCell>
-        <mxCell id="_wi2HK_pfaV_McRf6Jdr-8" edge="1" parent="1" source="_wi2HK_pfaV_McRf6Jdr-10" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="_wi2HK_pfaV_McRf6Jdr-3" value="1:recuperarSenha(email)">
+        <mxCell id="_wi2HK_pfaV_McRf6Jdr-8" edge="1" parent="1" source="_wi2HK_pfaV_McRf6Jdr-10" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="_wi2HK_pfaV_McRf6Jdr-3" value="recuperarSenha(email)">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="1869" as="sourcePoint" />
           </mxGeometry>
