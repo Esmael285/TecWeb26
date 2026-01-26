@@ -1445,10 +1445,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wFim4yxidfDapRqBszkN" name="Atividade">
-    <mxGraphModel dx="455" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="314" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zvmMokf5vefkEGFN3EG0-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-2" edge="1" parent="1" source="zvmMokf5vefkEGFN3EG0-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Inserir email e password" vertex="1">
+          <mxGeometry height="40" width="150" x="170" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-4" edge="1" parent="1" source="zvmMokf5vefkEGFN3EG0-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zvmMokf5vefkEGFN3EG0-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Validar campos" vertex="1">
+          <mxGeometry height="40" width="120" x="185" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-6" edge="1" parent="1" source="zvmMokf5vefkEGFN3EG0-5" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zvmMokf5vefkEGFN3EG0-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Campos válidos" vertex="1">
+          <mxGeometry height="40" width="120" x="185" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zvmMokf5vefkEGFN3EG0-10" edge="1" parent="1" source="zvmMokf5vefkEGFN3EG0-9" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
