@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4dvTvtCb20YjWD8j-yQT" name="Sequencia">
-    <mxGraphModel dx="1410" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -837,17 +837,25 @@
         <mxCell id="BqPEg7sjGKOZpRQ709QD-41" parent="BqPEg7sjGKOZpRQ709QD-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="370" width="10" x="45" y="60" as="geometry" />
         </mxCell>
+        <mxCell id="BqPEg7sjGKOZpRQ709QD-65" parent="BqPEg7sjGKOZpRQ709QD-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="50" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BqPEg7sjGKOZpRQ709QD-66" edge="1" parent="BqPEg7sjGKOZpRQ709QD-40" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="BqPEg7sjGKOZpRQ709QD-65" value="validarDadosAula()">
+          <mxGeometry relative="1" x="0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="81" y="100" />
+              <mxPoint x="81" y="150" />
+            </Array>
+            <mxPoint x="55" y="100.00671140939596" as="sourcePoint" />
+            <mxPoint x="60" y="110.00671140939596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BqPEg7sjGKOZpRQ709QD-42" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="dados:Database" vertex="1">
           <mxGeometry height="470" width="100" x="1709" y="130" as="geometry" />
         </mxCell>
         <mxCell id="BqPEg7sjGKOZpRQ709QD-43" parent="BqPEg7sjGKOZpRQ709QD-42" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="50" width="10" x="45" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="BqPEg7sjGKOZpRQ709QD-44" parent="BqPEg7sjGKOZpRQ709QD-42" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="50" width="10" x="45" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="BqPEg7sjGKOZpRQ709QD-45" parent="BqPEg7sjGKOZpRQ709QD-42" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="80" width="10" x="45" y="130" as="geometry" />
         </mxCell>
         <mxCell id="BqPEg7sjGKOZpRQ709QD-46" edge="1" parent="1" source="BqPEg7sjGKOZpRQ709QD-48" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="BqPEg7sjGKOZpRQ709QD-41" value="1:criarAula(dadosAula)">
           <mxGeometry relative="1" as="geometry">
@@ -918,32 +926,6 @@
         </mxCell>
         <mxCell id="BqPEg7sjGKOZpRQ709QD-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Instrutor" vertex="1">
           <mxGeometry height="30" width="60" x="1109" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="BqPEg7sjGKOZpRQ709QD-61" edge="1" parent="1" source="BqPEg7sjGKOZpRQ709QD-41" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="BqPEg7sjGKOZpRQ709QD-44" value="2:obterAula(idAula)">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="1594" y="205" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BqPEg7sjGKOZpRQ709QD-62" edge="1" parent="1" source="BqPEg7sjGKOZpRQ709QD-44" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="3:aula(estado)">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="1664.0000000000002" y="235" as="sourcePoint" />
-            <mxPoint x="1444.0000000000002" y="235" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BqPEg7sjGKOZpRQ709QD-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" value="4:vericarInscricaoExistente(idAula, idAula)">
-          <mxGeometry relative="1" x="0.0031" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="1444" y="275" as="sourcePoint" />
-            <mxPoint x="1754" y="275" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BqPEg7sjGKOZpRQ709QD-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="jaInscrito?">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1754" y="304.9999999999998" as="sourcePoint" />
-            <mxPoint x="1444" y="304.9999999999998" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
